@@ -38,9 +38,9 @@ TBC
 Try the built in theme
 ======================
 
-1. [Download the Bootstrap theme]<https://github.com/DISID/bootstrap-liferay/bootstrap-theme-6.1.1.1.war>
-2. [Install Bootstrap theme][Install Bootstrap theme]<README.md>
-3. [Download the Bootstrap site template]<https://github.com/DISID/bootstrap-liferay/bootstrap-site.lar>
+1. [Download the Bootstrap theme](https://github.com/DISID/bootstrap-liferay/bootstrap-theme-6.1.1.1.war)
+2. [Install Bootstrap theme][Install Bootstrap theme](README.md)
+3. [Download the Bootstrap site template](https://github.com/DISID/bootstrap-liferay/bootstrap-site.lar)
 4. Install Bootstrap site template
 5. View the default web content that comes with these themes in `Control Panel >> Site Templates >> View Pages`
 
