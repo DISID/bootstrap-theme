@@ -108,7 +108,7 @@ Thanks to
 License
 =======
 
-Copyright (C) 2013 [http://www.disid.com/en/](DISID TECHNOLOGIES S.L.)
+Copyright (C) 2013 [DISID TECHNOLOGIES S.L.](http://www.disid.com/en/)
 
 This work is licensed under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
 
