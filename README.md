@@ -112,5 +112,7 @@ Copyright (C) 2013 [DISID TECHNOLOGIES S.L.](http://www.disid.com/en/)
 
 This work is licensed under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
 
+This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
 To view a copy of this license, visit http://www.gnu.org/copyleft/gpl.html
 
