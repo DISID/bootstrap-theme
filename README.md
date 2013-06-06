@@ -25,6 +25,7 @@ Pre-requisites
 
 To start with bootstrap-theme you need:
 
+* [Liferay Portal 6.1 CE GA2](http://www.liferay.com/es/downloads/liferay-portal/available-releases)
 * `Liferay Portal 6.1 CE GA2 <http://www.liferay.com/es/downloads/liferay-portal/available-releases>`_
 * `Liferay Plugins SDK 6.1 GA 2 <http://www.liferay.com/es/downloads/liferay-portal/additional-files>`_, command-line-driven development environment for portlets, themes and layout templates.
 
