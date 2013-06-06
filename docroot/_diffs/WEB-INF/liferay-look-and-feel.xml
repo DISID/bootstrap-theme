@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.1.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_1_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.1.1+</version>
+	</compatibility>
+	<theme id="bootstrap" name="Bootstrap Theme">
+		<settings>
+			<setting configurable="true" key="portlet-setup-show-borders-default" type="checkbox" value="false"></setting>
+			<setting configurable="true" key="show-breadcrumbs" type="checkbox" value="false"></setting>
+			<setting configurable="false" key="show-site-name-default" value="false"></setting>
+			<setting configurable="true" key="footer-section-article-id" type="text"></setting>
+		</settings>
+		<layout-templates>
+		    <custom>
+		        <layout-template id="one_row_bootstrap" name="One Row Bootstrap Layout">
+		            <template-path>/layouttpl/custom/one-row-bootstrap-layouttpl/one_row_bootstrap.tpl</template-path>
+		            <wap-template-path>/layouttpl/custom/one-row-bootstrap-layouttpl/one_row_bootstrap.tpl</wap-template-path>
+		            <thumbnail-path>/layouttpl/custom/one-row-bootstrap-layouttpl/one_row_bootstrap.png</thumbnail-path>
+		        </layout-template>
+		        <layout-template id="one_two_3_9_column_bootstrap" name="1-2 (3/9span) Column Bootstrap Layout">
+					<template-path>/layouttpl/custom/one-two-3-9-column-bootstrap-layouttpl/one_two_3_9_column_bootstrap.tpl</template-path>
+					<wap-template-path>/layouttpl/custom/one-two-3-9-column-bootstrap-layouttpl/one_two_3_9_column_bootstrap.tpl</wap-template-path>
+					<thumbnail-path>/layouttpl/custom/one-two-3-9-column-bootstrap-layouttpl/one_two_3_9_column_bootstrap.png</thumbnail-path>
+				</layout-template>
+		    </custom>
+		</layout-templates>		
+	</theme>
+</look-and-feel>
+

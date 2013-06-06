@@ -1,0 +1,61 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
+
+<div class="navbar-inner">
+
+<div class="container">
+
+	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </a>
+
+    <a class="brand $logo_css_class" href="$site_default_url" title="#language("go-to") $site_name">
+		<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
+	</a>
+
+	<div class="nav-collapse collapse">
+		<ul class="nav">
+		#foreach ($nav_item in $nav_items)
+
+			#if ($nav_item.isSelected() && $nav_item.hasChildren())
+				<li class="selected active dropdown">
+			#elseif ($nav_item.isSelected())
+				<li class="selected active">
+			#elseif ($nav_item.hasChildren())
+				<li class="dropdown">
+			#else
+				<li>
+			#end
+
+			#if ($nav_item.hasChildren())
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">$nav_item.icon() $nav_item.getName() <b class="caret"></b></a>
+			#else
+				<a class="anchorLink" data-target=".nav-collapse" href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+			#end
+
+				#if ($nav_item.hasChildren())
+					<ul class="child-menu dropdown-menu">
+					<li>
+					<a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+					</li>
+						#foreach ($nav_child in $nav_item.getChildren())
+<!-- 							#if ($nav_child.isSelected()) -->
+<!-- 								<li class="selected active"> -->
+<!-- 							#else -->
+								<li>
+<!-- 							#end -->
+								<a href="$nav_child.getURL()" $nav_child.getTarget()>$nav_child.getName()</a>
+							</li>
+						#end
+					</ul>
+				#end
+			</li>
+		#end
+		</ul>
+	</div><!-- /nav-collapse -->
+
+	</div><!-- /container -->
+	</div><!-- /navbar-inner -->
+</nav><!-- navbar navbar-fixed-top -->
+

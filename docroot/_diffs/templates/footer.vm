@@ -1,0 +1,10 @@
+<footer class="footer" id="footer" role="contentinfo">
+
+	#if ($footer_section)
+		$footer_section
+	#end
+	<div>
+		#if (!$is_signed_in) <a href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a> #end
+	</div>
+      
+</footer>

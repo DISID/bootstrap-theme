@@ -1,0 +1,251 @@
+@import "compass";
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+.columns-max {
+	padding: 0 20px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.lfr-actions .lfr-trigger,.lfr-actions .lfr-trigger strong {
+	background-image: none;
+}
+
+/* CUSTOMIZE THE PORTLET
+-------------------------------------------------- */
+.portlet-journal-content .icon-actions { /*show list icons*/
+	width: auto;
+	height: auto;
+	background: none;
+}
+.portlet-msg-info {
+	background-image: none;
+}
+
+.portlet-topper-toolbar {
+	font-size: 12px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.logo {
+	max-width: 100px;
+}
+
+body > .navbar .brand {
+	float: right;
+	padding: 0;
+}
+.navbar-inner {
+	background-image: none;
+	filter: none;
+	}
+
+.dockbar {
+	z-index: 1000; /*for navbar fixed on top*/
+	/*position: fixed;
+	width: 100%;*/
+}
+.navbar-fixed-top {
+	z-index: 900; /*for navbar fixed on top with liferay*/
+	background: white;
+}
+
+/* CUSTOMIZE  portlet login Liferay
+-------------------------------------------------- */
+
+.portlet-login,
+.form-signin {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 20px auto;
+        background-color: #e5e5e5;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .portlet-login input[type="text"],
+      .portlet-login input[type="password"],
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+
+/* CUSTOMIZE  forms
+-------------------------------------------------- */
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover {
+/*background-image: none;*/
+}
+option {
+	color: #333;
+}
+
+/*webform search liferay */
+input[title*="Buscar"]{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../images/glyphicons-halflings.png");
+	background-repeat: no-repeat;
+	margin-top: 1px;
+	background-position: -48px 0;
+}
+
+/*breadcrumb*/
+.breadcrumbs li {
+	padding: 0 5px 0 20px;
+	color: #CCC;
+	/*icon*/
+	display: inline-block;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../images/glyphicons-halflings.png");
+	background-repeat: no-repeat;
+	margin-top: 1px;
+	background-position: -456px -72px;
+}
+.breadcrumbs li.first {
+	background-image: none;
+}
+
+/*messages*/
+.portlet-msg,
+.portlet-msg-info,
+.portlet-msg-help,
+.lfr-message-help,
+.lfr-message-info,
+.portlet-msg-error,
+.lfr-message-error,
+.portlet-msg-alert,
+.lfr-message-alert,
+.portlet-msg-success,
+.lfr-message-success {
+	background-image: none;
+	border: none;
+}
+.portlet-msg-progress,
+.lfr-message-progress{
+	padding-left: 30px;
+	border: none;
+}
+
+.popup-alert-warning {
+	padding-left: 30px;
+}
+
+
+/* CUSTOMIZE  marketing
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing [class*="span"] {
+	text-align: center;
+	}
+.marketing h2 {
+	font-weight: normal;
+    }
+.marketing [class*="span"] p {
+    margin-left: 10px;
+     margin-right: 10px;
+     font-size: 14px;
+    }
+
+/* CUSTOMIZE  featurette (examples Bootstrap)
+-------------------------------------------------- */
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 1200px) {
+	body {
+	position: relative;
+	padding-top: 40px; /*for navbar fixed*/
+	}
+}
+
+@media (max-width: 979px) {
+
+	.jumbotron h1 {
+	font-size: 50px;
+	}
+	.jumbotron .lead {
+		font-size: 16px;
+	}
+	.jumbotron .btn {
+	    font-size: 12px;
+	    padding: 12px 20px;
+	}
+	.masthead {
+		padding: 90px 0 20px;
+	}
+	.featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+}
+
+@media (max-width: 767px) {
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+}
+
+
+
