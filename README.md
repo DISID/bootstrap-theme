@@ -16,7 +16,7 @@ This project contains:
  - Theme _layouttpl_ files that create the Bootstrap _Fluid grid system_
  - Theme _look-and-feel_ settings
 
-If you like to try a release that has already been built, we recommend that you visit download page [](TODO) and read the _Try the Bootstrap theme_ section below.
+If you like to try a release that has already been built, we recommend that you visit download page at [SourceForge](https://sourceforge.net/projects/bootstraptheme/files/dist/) and read the _Try the Bootstrap theme_ section below.
 
 Pre-requisites
 ==============
@@ -40,9 +40,9 @@ Developer setup instructions
 Try the Bootstrap theme
 =======================
 
-1. [Download the Bootstrap theme](https://github.com/DISID/bootstrap-liferay/bootstrap-theme-6.1.1.1.war)
+1. [Download the Bootstrap theme](https://downloads.sourceforge.net/project/bootstraptheme/dist/bootstrap-theme-6.1.1.1.war)
 2. Install Bootstrap theme (see section _Install Bootstrap theme_ below)
-3. [Download the Bootstrap site template](https://github.com/DISID/bootstrap-liferay/bootstrap-site.lar)
+3. [Download the Bootstrap site template](https://downloads.sourceforge.net/project/bootstraptheme/dist/bootstrap-site.lar)
 
    To test Bootstrap theme quickly, we have created a _Bootstrap site template_, which includes Liferay pages configured with demo web contents to build the Bootstrap site in Liferay: Home, Get started, Scaffolding, Base CSS, Components, JavaScript, Customize
 
