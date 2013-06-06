@@ -21,14 +21,14 @@ If you like to try a release that has already been built, we recommend that you 
 Pre-requisites
 ==============
 
+To develop bootstrap-theme you need:
+
+* [Liferay Plugins SDK 6.1 GA 2](http://www.liferay.com/es/downloads/liferay-portal/additional-files), command-line-driven development environment for portlets, themes and layout templates.
+
 To start with bootstrap-theme you need:
 
 * [Liferay Portal 6.1 CE GA2](http://www.liferay.com/es/downloads/liferay-portal/available-releases)
 * [Private Plugin Installer CE](http://www.liferay.com/es/marketplace/-/mp/application/15474932) The Private Plugin Installer app allows developers and system administrators to hot deploy individual Liferay plugins using the Control Panel. 
-
-To develop bootstrap-theme you need:
-
-* [Liferay Plugins SDK 6.1 GA 2](http://www.liferay.com/es/downloads/liferay-portal/additional-files), command-line-driven development environment for portlets, themes and layout templates.
 
 Developer setup instructions
 ============================
@@ -94,7 +94,7 @@ Have a bug or a feature request? [Please open a new issue](https://github.com/DI
 Contributing
 ============
 
-All contributions will be welcome, just create a pull-request and we will take it in account.
+All contributions will be welcome, just [create a pull-request](https://github.com/DISID/bootstrap-theme/pulls) and we will take it in account.
 
 Thanks!
 
